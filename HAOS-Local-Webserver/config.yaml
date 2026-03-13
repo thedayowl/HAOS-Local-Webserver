@@ -1,0 +1,18 @@
+name: "Local WWW Server"
+description: "Lightweight HTTP server for local UI hosting"
+version: "1.0.0"
+slug: "local_www_server"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+ports:
+  8099/tcp: 8099
+ports_description:
+  8099/tcp: "HTTP web server"
+map:
+  - config:rw
+options: {}
+schema: {}
