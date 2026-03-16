@@ -1,6 +1,6 @@
 name: "Local WWW Server"
 description: "Lightweight HTTP server for local UI hosting"
-version: "1.0.2"
+version: "1.0.3"
 slug: "local_www_server"
 init: false
 arch:
